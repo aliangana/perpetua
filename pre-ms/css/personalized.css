@@ -395,6 +395,10 @@ strong {
   font-weight: 700;
 }
 
+.strong {
+	font-weight: 700;
+}
+
 h1 {
   font-family: var(--font-sans);
   color: var(--color1);
@@ -423,9 +427,8 @@ h3  {
 
 h4 {
   font-family: var(--font-sans);
-  font-weight: 700;
-  font-size: 14px;
-  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 21px;
   text-transform: uppercase;
   margin-bottom: 20px;
   margin: 5px 0;
@@ -435,8 +438,7 @@ h5 {
 	font-family: var(--font-sans);
 	font-weight: 400;
 	font-size: 14px;
-	letter-spacing: 2px;
-	text-transform: capitalize;
+	text-transform: uppercase;
 	margin: 5px 0;
 }
 
@@ -967,14 +969,39 @@ header {
 	text-align: center;
 }
 
+#banner-extra {
+	margin: 30px 0;
+}
+
+#banner-extra .banner-photo {
+	height: 300px;
+	background-image: url(../IMAGES/banner.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#shop-info {
+	margin-top: 60px;
+	padding: 60px 0;
+	text-align: center;
+	background: var(--color1);
+	color: white;
+}
+
+#shop-info img {
+	margin-bottom: 30px;
+}
+
 footer {
 	padding: 15px 0;
+	background: var(--softGrey);
 }
 
 .footer-container {
 	padding: 45px 15px;
-	border-top: 1px solid var(--color1);
-	color: var(--color2);
+	color: var(--color1);
 }
 
 .footer-navigation {
@@ -984,10 +1011,25 @@ footer {
 	text-transform: uppercase;
 }
 
-.footer-navigation h4 {
-	margin-bottom: 10px;
+.footer-navigation h5 {
+	margin-bottom: 20px;
 }
 
 .footer-navigation li {
 	margin: 7px 0;
+}
+
+.foot-icon {
+	margin-left: -23px;
+}
+
+.copyright {
+	border-top: 1px solid var(--color1);
+	padding-top: 15px;
+}
+
+.copyright-info {
+	text-transform: uppercase;
+	font-size: 12px;
+	color: var(--color1);
 }
