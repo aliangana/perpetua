@@ -1,0 +1,885 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"product",
+				"products-nav-button"
+			],
+			[
+				"products-nav",
+				"products-nav"
+			],
+			[
+				"hidden",
+				"hidden-sm"
+			],
+			[
+				"fil",
+				"fill"
+			],
+			[
+				"col",
+				"color2"
+			],
+			[
+				"glyphicon",
+				"glyphicon-arrow-right"
+			],
+			[
+				"soft",
+				"softGrey"
+			],
+			[
+				"col-md-",
+				"col-md-4"
+			],
+			[
+				"middle",
+				"middleGrey"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"color",
+				"color2"
+			],
+			[
+				"font",
+				"font-sans"
+			],
+			[
+				"flx",
+				"flex-direction"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"font-",
+				"font-sans"
+			],
+			[
+				"head",
+				"header\tTag"
+			],
+			[
+				"msGrey",
+				"msGreySoft"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"ms",
+				"msBlack"
+			],
+			[
+				"col-",
+				"col-md-6"
+			],
+			[
+				"project-btn",
+				"project-btn-link"
+			],
+			[
+				"project",
+				"project-btn-cont"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"transform",
+				"transform-origin"
+			],
+			[
+				"contac",
+				"contactFloat"
+			],
+			[
+				"menu",
+				"menuLinks"
+			],
+			[
+				"to",
+				"toggleClass"
+			],
+			[
+				"Rott",
+				"rotateZ()"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"projec",
+				"project-btn-link"
+			],
+			[
+				"trnaslat",
+				"translateX()"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"scale",
+				"scale()"
+			],
+			[
+				"Bold",
+				"Bold"
+			],
+			[
+				"transitio",
+				"transition"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"C",
+				"C4C4C4"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"open",
+				"open-menu"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"overflow",
+				"overflow"
+			],
+			[
+				"animation",
+				"animation-duration"
+			],
+			[
+				"flex",
+				"flex-wrap"
+			],
+			[
+				"translate",
+				"translateX()"
+			],
+			[
+				"outline",
+				"outline"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"maison",
+				"maison_neuebold"
+			],
+			[
+				"contacto",
+				"contacto"
+			],
+			[
+				"list-sty",
+				"list-style-type"
+			],
+			[
+				"foot",
+				"foot-info"
+			],
+			[
+				"woff",
+				"woff"
+			],
+			[
+				"Maison",
+				"maison_neue_demi-webfont"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"form",
+				"form-input"
+			],
+			[
+				"backgrou",
+				"background-size"
+			],
+			[
+				"logo-",
+				"logo-mobile"
+			],
+			[
+				"logo",
+				"logo-icon"
+			],
+			[
+				"Display",
+				"Display"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"outlin",
+				"outline"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"white",
+				"white-bar"
+			],
+			[
+				"tetx",
+				"text-decoration"
+			],
+			[
+				"inli",
+				"inline-flex"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"footer",
+				"footer-col"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"email",
+				"email"
+			],
+			[
+				"t",
+				"transform"
+			],
+			[
+				"bann",
+				"banner-full"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"cart",
+				"Carrito"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"sectio",
+				"section"
+			],
+			[
+				"btn",
+				"cta-btn"
+			],
+			[
+				"contain",
+				"container-services"
+			],
+			[
+				"co",
+				"cover"
+			],
+			[
+				"fle",
+				"flex-start"
+			],
+			[
+				"f",
+				"flex-basis"
+			],
+			[
+				"container",
+				"container-index"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"ff",
+				"FFFFFF"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"Neu",
+				"Neue"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"Neue",
+				"MaisonNeue-Bold"
+			],
+			[
+				"fl",
+				"flex-end"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"flex-",
+				"flex-basis"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"alig",
+				"align-self"
+			],
+			[
+				"spaci",
+				"letter-spacing"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"re",
+				"redes-nav"
+			],
+			[
+				"italic",
+				"italic-gray"
+			],
+			[
+				"itali",
+				"italic-gray"
+			],
+			[
+				"info",
+				"info-container-data"
+			],
+			[
+				"border-bottom",
+				"border-bottom"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"mai",
+				"maison_neue_demi-webfont"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Juan/Downloads/Minimalista/HTML/header.html",
+		"/Users/Juan/Downloads/Minimalista/HTML/footer.html",
+		"/Users/Juan/Downloads/Minimalista/HTML/home.html",
+		"/Users/Juan/Documents/Montauk/GITHUB/sti-motos/sti-motos/CSS/personalized.css",
+		"/Users/Juan/Documents/Montauk/GITHUB/sti-motos/sti-motos/HTML/footer.html",
+		"/Users/Juan/Documents/Montauk/GITHUB/sti-motos/sti-motos/HTML/header.html",
+		"/Users/Juan/Documents/Montauk/GITHUB/sti-motos/sti-motos/HTML/home.html",
+		"/Users/Juan/Documents/Montauk/GITHUB/siglo-21/pre-ms/html/index.html",
+		"/Users/Juan/Documents/Montauk/GITHUB/siglo-21/ms/HTML/home.html",
+		"/Users/Juan/Documents/Montauk/GITHUB/template-deco/deco-template/HTML/home.html",
+		"/Users/Juan/Documents/Montauk/GITHUB/sti-motos/pre-ms/index.html",
+		"/Users/Juan/Documents/Montauk/GITHUB/starter-ms/pre-ms/html/index.html",
+		"/Users/Juan/Documents/Montauk/GITHUB/starter-ms/pre-ms/css/personalized.css",
+		"/Users/Juan/Documents/Montauk/GITHUB/siglo-21/siglo-21/HTML/home.html",
+		"/Users/Juan/Documents/Montauk/GITHUB/siglo-21/siglo-21/HTML/header.html",
+		"/Users/Juan/Documents/Montauk/GITHUB/siglo-21/siglo-21/HTML/footer.html",
+		"/Users/Juan/Documents/Montauk/GITHUB/siglo-21/css/index.css",
+		"/Users/Juan/Documents/Montauk/GITHUB/template-deco/deco-template/CSS/personalized.css",
+		"/Users/Juan/Documents/Montauk/GITHUB/template-deco/deco-template/HTML/footer.html",
+		"/Users/Juan/Downloads/work.htm",
+		"/Users/Juan/Documents/Montauk/Workspace/.git-ftp-ignore",
+		"/Users/Juan/Documents/Montauk/Workspace/app/config/dev/database.php",
+		"/Users/Juan/Downloads/database.php",
+		"/Users/Juan/Documents/Montauk/Workspace/themes/default/pages/work.htm",
+		"/Users/Juan/Documents/Montauk/Workspace/app/config/database.php",
+		"/Users/Juan/Documents/Montauk/Workspace/themes/default/pages/portfolio-more.htm",
+		"/Users/Juan/Desktop/workplace-domain-verification.htm",
+		"/Users/Juan/Desktop/workplace-domain-verification.html",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Frany and Zoey/HTML/F&Z/HTML/header.html",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Frany and Zoey/HTML/F&Z/HTML/footer.html",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Giorgio Redaelli/HTML/G Redaelli/HTML/footer.html",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Giorgio Redaelli/HTML/G Redaelli/CSS/personalized.css",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/OGGI/HTML/Oggi MS HTML/CSS/personalized.css",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Frany and Zoey/HTML/F&Z/CSS/personalized.css",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Frany and Zoey/HTML/F&Z/HTML/home.html",
+		"/Users/Juan/Documents/Montauk/Workspace/themes/default/assets/javascript/instafeed.min.js",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Frany and Zoey/HTML/F&Z/IMAGES/js/instafeed.min.js",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/OGGI/HTML/Oggi MS HTML/HTML/footer.html",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/OGGI/HTML/Oggi MS HTML/HTML/header.html",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Frany and Zoey/HTML/F&Z/theme.properties",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Frany and Zoey/HTML/Secciones Extra/Campañas old.html",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Giorgio Redaelli/HTML/G Redaelli/HTML/header.html",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Frany and Zoey/HTML/Secciones Extra/About Us.html",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Frany and Zoey/HTML/Secciones Extra/Lookbook.html",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Frany and Zoey/Assets/bag.svg",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Frany and Zoey/Assets/lupa.svg",
+		"/Users/Juan/Desktop/Montauk/Assets Web/Montauk logo.svg",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Frany and Zoey/Assets/iso.svg",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Giorgio Redaelli/HTML/G Redaelli/HTML/home.html",
+		"/Users/Juan/Documents/Montauk/Workspace/themes/default/layouts/heniax.htm",
+		"/Users/Juan/Documents/Montauk/Workspace/themes/default/partials/header.htm",
+		"/Users/Juan/Documents/Montauk/Workspace/themes/default/assets/css/web.css",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Frany and Zoey/Assets/Arrow-vert.svg",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Frany and Zoey/HTML/Old/HTML/home.html",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Frany and Zoey/HTML/F&Z/CSS/themes/chico-0.10.7.css",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Frany and Zoey/Assets/Arrow.svg",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Frany and Zoey/Assets/Logo FyZ.svg",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Frany and Zoey/Assets/Icon\r",
+		"/Users/Juan/Documents/Montauk/Curso Maquetado/Proyecto 2/css/style.css",
+		"/Users/Juan/Desktop/Montauk/Web Montauk New/themes/default/assets/javascript/instafeed.min.js",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Estate Pipes/HTML/EPBA/CSS/personalized.css",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Estate Pipes/HTML/Secciones Extra/FAQ.html",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/OGGI/HTML/Oggi MS HTML/CSS/main.scss",
+		"/Users/Juan/Downloads/facebook-pixel-code-18-march-2017/Nomo/common.js",
+		"/Users/Juan/Downloads/facebook-pixel-code-18-march-2017/Nomo/product.tpl",
+		"/Users/Juan/Desktop/Montauk/Assets Web/burger-menu.svg",
+		"/Users/Juan/Desktop/Montauk/Web Montauk New/themes/default/pages/testing.html",
+		"/Users/Juan/Desktop/Montauk/Web Montauk New/themes/default/pages/home-.htm",
+		"/Users/Juan/Desktop/Montauk/htdocs/themes/default/assets/css/web.styl",
+		"/Users/Juan/Desktop/Montauk/htdocs/themes/default/assets/css/web2.css",
+		"/Users/Juan/Desktop/Montauk/htdocs/themes/default/assets/css/web.css_",
+		"/Users/Juan/Desktop/web.css",
+		"/Users/Juan/Desktop/Montauk/htdocs/themes/default/assets/css/normalize.css",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Grupo Fazio/Fazio/HTML/header.html",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Grupo Fazio/Fazio/CSS/personalized.css",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Grupo Fazio/Fazio/HTML/footer.html",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Montauk/index.html",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Giorgio Redaelli/HTML/G Redaelli/Secciones Institucionales/Puntos de Venta",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Giorgio Redaelli/HTML/G Redaelli/IMAGES/logo-footer.svg",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Giorgio Redaelli/HTML/G Redaelli/IMAGES/phone.svg",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Giorgio Redaelli/HTML/G Redaelli/IMAGES/mail.svg",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Giorgio Redaelli/HTML/G Redaelli/IMAGES/cart.svg",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Giorgio Redaelli/HTML/G Redaelli/IMAGES/ig-white.svg",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Giorgio Redaelli/HTML/G Redaelli/IMAGES/fb-white.svg",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Giorgio Redaelli/HTML/G Redaelli/IMAGES/search.svg",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Giorgio Redaelli/HTML/G Redaelli/IMAGES/logo.svg",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Giorgio Redaelli/HTML/Warnes 1-2/CSS/personalized.css",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/OGGI/HTML/Oggi MS HTML/HTML/home.html",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Giorgio Redaelli/HTML/Redaelli web/index.html",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Giorgio Redaelli/HTML/Redaelli web/CSS/style.css",
+		"/Volumes/JUAN/MONTAUK/Backup Google Drive/Mar. 2017/DEV/Warnes Telas/HTML/Warnes 1-2/HTML/home.html",
+		"/Users/Juan/Documents/Montauk/Curso Maquetado/Proyecto 2/index.html",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Giorgio Redaelli/HTML/Redaelli web/CSS/personalized.css",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Giorgio Redaelli/HTML/G Redaelli/HTML/index.html",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Paulette/HTML MS/Paulette MS HTML/HTML/header.html",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Paulette/HTML MS/Paulette MS HTML/CSS/personalized.css",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/OGGI/HTML/Páginas Extras/faqpayment.html",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Rondi/HTML/rondi/CSS/main.css",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Rondi/HTML/rondi/index.html",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Rondi/HTML/rondi/CSS/normalize.css",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/OGGI/HTML/Oggi 23-2/HTML/home.html",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Aoky Sushi/htdocs/application/views/web/views/index.php",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Aoky Sushi/htdocs/application/views/web/layouts/layout.php",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Aoky Sushi/htdocs/css/owl.carousel.min.css",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Aoky Sushi/htdocs/css/owl.theme.default.min.css",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Aoky Sushi/htdocs/application/views/web/partials/header.php",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Aoky Sushi/htdocs/application/views/web/partials/footer.php",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Aoky Sushi/htdocs/css/admin.css",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Aoky Sushi/htdocs/css/normalize.css",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Aoky Sushi/htdocs/css/web.styl",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Aoky Sushi/htdocs/css/web.css_",
+		"/Users/Juan/Documents/Montauk/Curso Maquetado/Pruebas MS/Paulette MS HTML/theme.properties",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Paulette/HTML MS/Paulette MS HTML/theme.properties",
+		"/Users/Juan/Documents/Montauk/Curso Maquetado/Proyecto1/css/style.css",
+		"/Users/Juan/Documents/Montauk/Curso Maquetado/Proyecto1/index.html",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Phresh/css/web.css",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Phresh/application/views/web/views/index.php",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Phresh/css/web.styl",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Di Nizo/HTML/Di Nizo/CSS/personalized.css",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Di Nizo/HTML Web/footer.php",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Di Nizo/HTML Web/web.css",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Di Nizo/HTML Web/header.php",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Di Nizo/HTML Web/index.php",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Di Nizo/HTML/Di Nizo/HTML/home.html",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Paulette/HTML Web 2/header.php",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Paulette/HTML Web 2/footer.php",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Roden Web/HTML/header.php",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Roden MS/HTML/Roden HTML/CSS/main.css"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#home-hero .slide-content h2",
+			"--fon",
+			"h4",
+			"color2",
+			"overlay",
+			"logo",
+			"h4",
+			"nav-overlay",
+			"#logo",
+			"contact-us",
+			"accesories",
+			"root",
+			"color1",
+			"roboto",
+			"ofertas",
+			"popup",
+			"oferta",
+			"husqvarna",
+			"products",
+			".promoRibbon, .promoRibbonMlb",
+			".component.searchResults .component.item-gallery h2",
+			".component.categoriesPath li.first",
+			"mainContent",
+			"body",
+			"open",
+			".open",
+			"  html.active, body.active {\n  \toverflow: hidden;\n    position: fixed;\n  }",
+			"active",
+			"slick-dotted.slick-slider",
+			"search",
+			"slick-prev",
+			"h4",
+			"button",
+			"#contacto",
+			"work #top",
+			"#work .cont .images .image .title",
+			"parallax",
+			"bottom",
+			"instafeed",
+			"col-2",
+			".left-info",
+			"h5",
+			"home",
+			"after",
+			"contact-menu",
+			"CONTACT/MENU",
+			"button",
+			"nav-burger",
+			"nav-title",
+			"nav-tite",
+			"nav-title",
+			"instafeed",
+			"contact",
+			"col-2",
+			"overlay",
+			"vslide",
+			"after",
+			"headline",
+			"project-btn",
+			"container",
+			"what-we-do",
+			"s1",
+			"vslide",
+			"insta",
+			"instaphoto",
+			".product-photo",
+			".product-item",
+			"instaphoto",
+			".js",
+			"instafeed",
+			"instagram-feed",
+			"instafeed",
+			".component.searchResults .component.item-gallery",
+			".top-foot",
+			".foot-container .four-col .foot-links .foot-link-container a::before",
+			"bottom-foot",
+			"four-col",
+			"footer",
+			"second-level",
+			"menu-links",
+			"second-level",
+			"blog",
+			"#page-RESULT figure a::after",
+			".component.searchResults .component.item-gallery li",
+			".categories",
+			".categoriesç",
+			".menu-links",
+			".menu-link",
+			".form-newsletter form",
+			".component.categoriesPath li.qtyResults h2",
+			".component.shipTable .colFoto",
+			"p.promoRibbonCart",
+			".component.shipTable .tfoot li",
+			".component.shipTable ul.order-price-detail .colTitulo",
+			".component.shipTable label",
+			".component.shipTable .thead",
+			".title-component",
+			".component.picviewer",
+			".VipLastOnes",
+			".component.orderList",
+			".promoRibbon, .promoRibbonMlb",
+			"a.ch-tab-trigger.ch-tab-trigger-on",
+			".component.vip h1",
+			".PaymentList li.PaymentAll",
+			".paymentsMP #allPayments",
+			"vip",
+			"#open-menu",
+			".NonStock",
+			".component.vip span.ch-price.price",
+			".component.vip h1",
+			"#page-VIP .component.categoriesPath.clearfix",
+			".component.categoriesPath.clearfix, .clearfix.background",
+			".component.searchResults .component.item-gallery h2",
+			".component.searchResults .component.item-gallery figure",
+			".component.searchResults .component.item-gallery h2",
+			".component.orderList dd strong",
+			".component.orderList",
+			".background > form *",
+			".component.categoriesPath li",
+			".component.searchResults li.row.one-promo",
+			".component.searchResults .component.item-gallery figure",
+			".component.categoriesPath.clearfix, .clearfix.background",
+			".component.searchResults .component.item-gallery figure",
+			"#page-RESULT .component.searchResults .component.item-gallery .itemPrice",
+			".item-gallery .lastProd",
+			".component.orderList",
+			"a#sortMaxPrice",
+			".component.orderList"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "perpetua.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"footer",
+				"HTML/footer.html"
+			],
+			[
+				"",
+				"HTML/header.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Google Drive/Montauk Studio/Dev/Frany and Zoey/HTML/F&Z.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 195.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
