@@ -1,0 +1,114 @@
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" rel="stylesheet">
+
+<header>
+  <div class="topbar hidden-xs hidden-sm">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-xs-12 col-md-3">
+          <a href="/" class="logo">
+            <img src="../IMAGES/logo.png" width="240"/>
+          </a>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <form id="searchbar" method="get" action="/jm/com.mercadoshops.web.frontend.page.PageController">
+            <input type="hidden" name="view" value="result">
+            <input type="search" id="search" name="q" value="" name="search" class="inputField" placeholder="¿Qué estás buscando?">
+            <button type="submit">Buscar</button>
+          </form>
+        </div>
+        <div class="col-xs-12 col-md-3">
+          <div class="row">
+            <p>
+              <i class="glyphicon glyphicon-earphone"></i>Contactanos
+            </p>
+          </div>
+          <div class="row">
+            <p>(5411)4713-1303 / 4752-7812</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="botbar">
+  	<img src="../IMAGES/logo-white.png" width="150" class="visible-xs visible-sm mobile-logo-white">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="hidden-xs hidden-sm col-md-6 align-items-center justify-content-left">
+          <ul class="desktop-navigation">
+          	#foreach($categoryLevel1 in $level1CategoryList)
+	            <li>
+	              <a href="$categoryLevel1.url">$categoryLevel1.name</a>
+	              #if($categoryLevel1.hasSubCategories)
+		              <ul class="second-level">
+			              	#foreach($categoryLevel2 in $categoryLevel1.subCategories)
+				                <li>
+				                  <a href="$categoryLevel2.url">$categoryLevel2.name</a>
+				                </li>
+			                #end
+		              </ul>
+	              #end
+	            </li>
+            #end
+            <li>
+              <a href="/contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <div class="hidden-xs hidden-sm col-md-6 align-items-center justify-content-right">
+          <a href="/cart" class="cart-btn">
+            Mi Carrito<i class="glyphicon glyphicon-shopping-cart"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Navigation -->
+
+  <nav class="mobile-menu visible-xs visible-sm">
+    <div class="white-bar-mobile">
+      <div class="mobile-burger" id="main-mobile-burger">
+        <a class="menu-link" id="main-menu-link" href="#">
+          <span class="menu-icon">
+            <span class="menu-line menu-line-1"></span>
+            <span class="menu-line menu-line-2"></span>
+            <span class="menu-line menu-line-3"></span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="menu-overlay" id="main-menu-overlay">
+    <a href ="/" class="mobile-logo">
+      <img src="../IMAGES/logo-white.png" width="90" class="logo">
+    </a>
+    <a href="/">HOME</a>
+    <div id="products-toggle">
+      <a href="#" class="hidden-xs hidden-sm">PRODUCTOS</a>
+      <p class="visible-xs visible-sm">PRODUCTOS</p>
+      <div class="products-nav-container" id="products-nav-container-mobile">
+        <div id="products-nav">
+          #foreach($categoryLevel1 in $level1CategoryList)
+          <div class="products-nav-button-toggle">
+            <div class="products-nav-button">
+              #if($categoryLevel1.isInSelectedPath)
+                <span class="selected-path">  $categoryLevel1.name</span>
+              #else
+                <a href="$categoryLevel1.url">
+                $categoryLevel1.name</a>
+              #end
+            </div>
+          </div>  
+          #end
+        </div>
+      </div>  
+    </div>  
+    <a href="/contact">CONTACTO</a>
+    <div id="rednav-social">
+      <a href="http://facebook.com/stimotos/" target="_blank"><i><img src="../IMAGES/fb.png" width="30"></i></a>
+      <a href="http://instagram.com/stimotos/" target="_blank"><i><img src="../IMAGES/ig.png" width="30"></i></a>
+    </div>
+  </div>
+
+</header>

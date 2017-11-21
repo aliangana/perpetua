@@ -1,0 +1,140 @@
+<footer>
+  <div class="container footer-container">
+    <div class="col-xs-12 col-sm-3 xs-center">
+      <img src="../IMAGES/logo.png" width="210">
+    </div>
+    <div class="col-xs-12 col-sm-2">
+      <h5 class="strong">Home</h5>
+      <hr class="hidden-md hidden-lg hidden-xl">
+      <ul class="footer-navigation">
+        <li>
+          <a href="#">La empresa</a>
+        </li>
+        #foreach($categoryLevel1 in $level1CategoryList)
+          <li>
+            <a href="$categoryLevel1.url">$categoryLevel1.name</a>
+          </li>
+        #end
+        <li>
+          <a href="#">Contactanos</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <h5 class="strong">Nuestras Sucursales</h5>
+      <hr class="hidden-md hidden-lg hidden-xl">
+      <ul class="footer-navigation">
+        <li>
+          <img src="../IMAGES/pin.png" width="15" class="foot-icon">
+          <a href="#">
+            Administración y Fábrica<br>
+            Calle 78 (Jose María Bosch) 4564<br>
+            San Martín (1650), Bs. As.  Argentina
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-xs-12 col-sm-2">
+      <h5 class="strong">
+        <a href="/contact">Contacto</a>
+      </h5>
+      <ul class="footer-navigation">
+        <li>
+          <img src="../IMAGES/phone.png" width="15" class="foot-icon">
+          <a href="#">
+            Tel./Fax: (5411) 4713-1303 / 4752-7812
+          </a>
+        </li>
+        <li>
+          <img src="../IMAGES/mail.png" width="15" class="foot-icon">
+          <a href="#">
+            delre@delre.com.ar
+          </a>
+        </li>
+      </ul>
+      <hr class="hidden-md hidden-lg hidden-xl">
+    </div>
+  </div>
+  <div class="container copyright">
+    <div class="col-xs-12 col-sm-4 xs-center">
+      <p class="copyright-info">
+        Perpetua 2017 – Todos los derechos reservados
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-4 xs-center text-align-center">
+      <p class="copyright-info">
+        Powered by MercadoShops
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-4 xs-center text-align-right">
+      <a href="http://www.montaukstudio.com" target="_blank" class="copyright-info">
+          Diseño & Desarrollo
+          Montauk
+      </a>
+    </div>
+  </div>
+</footer>
+
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Slick Js -->
+<script type="text/javascript" src="../IMAGES/js/slick.min.js"></script>
+<script type="text/javascript" src="../IMAGES/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    /* Montauk */
+    console.log('MADE WITH 💛 BY MONTAUK™ ⚓️ \n www.montaukstudio.com');
+  });
+</script>
+
+<script type="text/javascript">
+  /* Nav */
+  var $jq = jQuery.noConflict();
+  function openInput() {
+    $jq('#searchbar').toggleClass('active');
+  }
+
+  $jq(document).ready(function () {
+    $jq("#main-menu-link").click(function(e) {
+      e.preventDefault();
+      $jq("#main-mobile-burger").toggleClass("open");
+      $jq("#main-menu-overlay").toggleClass("open");
+      $jq('body').toggleClass('active');
+      $jq('.NonStock').toggleClass('hide');
+      $jq('.VipLastOnes').toggleClass('hide');
+    });
+  });
+</script>
+
+<script type="text/javascript">
+  var $jq = jQuery.noConflict();
+  $jq(document).ready(function(){
+
+    $jq('#hero-slider').slick({
+      autoplay: true,
+      speed: 1000,
+      easing: 'swing',
+      infinite: false,
+      draggable: false,
+      pauseOnHover: false,
+      draggable: true,
+      dots: true,
+      arrows: false,
+      infinite: false
+    });
+  })
+</script>
+
+<!-- High Res Pics -->
+<script type="text/javascript">
+  var $jq = jQuery.noConflict();
+  $jq(document).ready(function() {
+    $jq('img').each(function(){
+      src = $jq(this).attr('src');
+      src = src.replace('ZdXpZ1', 'ZbXpZ1');
+      $jq(this).attr('src', src);
+    });
+  });
+</script>

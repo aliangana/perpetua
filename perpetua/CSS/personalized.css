@@ -570,6 +570,7 @@ li {
 
 header {
 	z-index: 999;
+	padding-top: 0 !important;
 }
 
 .topbar {
@@ -692,15 +693,21 @@ header {
 .mobile-menu {
   justify-content: center;
   position: absolute;
-  top: 7px;
-  right: -10px;
+  top: 0px;
+  right: 0px;
+}
+
+.mobile-logo-white {
+	position: absolute;
+	left: 15px;
+	top: 20px;
 }
 
 .mobile-burger {
-  top: -8px;
+  top: 0x;
   right: 0;
-  height: 75px;
-  width: 75px;
+  height: 60px;
+  width: 60px;
   z-index: 1000;
 }
 
@@ -724,7 +731,7 @@ header {
 }
 
 .menu-line {
-  background-color: #000;
+  background-color: #FFF;
   height: 2px;
   width: 100%;
   border-radius: 2px;
@@ -1042,12 +1049,6 @@ footer {
 
 /* MS Customization starts here */
 
-/* Adjustments for CAPOCAR */
-
-.wrapper {
-	margin-top: 210px;
-}
-
 /* Category Start Here */
 
 .installments-info {
@@ -1225,12 +1226,12 @@ aside.ch-g1-4.clearfix{
 .component.searchResults .component.item-gallery h2 {
   margin: auto !important;
   text-align: left;
-  text-transform: none;
+  text-transform: uppercase;
   font-family: var(--font-sans);
   font-size: 14px;
   font-style: normal;
-  font-weight: 700;
-  color: black;
+  font-weight: 400;
+  color: var(--color1);
   text-decoration: none;
   letter-spacing: 0px;
   margin: auto;
@@ -1262,9 +1263,9 @@ aside.ch-g1-4.clearfix{
 
 #page-RESULT .price{
   margin-bottom: 0;
-  color: black;
+  color: var(--color1);
   font-size: 17px;
-  font-weight: 700;
+  font-weight: 400;
   font-family: var(--font-sans);
 }
 
@@ -1346,13 +1347,12 @@ aside.ch-g1-4.clearfix{
     margin: auto;
     width: 80%;
     font-family: var(--font-sans);
-    font-weight: 700;
+    font-weight: 400;
     font-size: 14px;
     text-transform: uppercase;
     color: white;
     background: var(--color1);
     border: 1px solid var(--color1);
-    border-radius: 30px;
     position: relative;
     -webkit-transition: all 0.5s;
     z-index: 10;
@@ -1663,7 +1663,7 @@ section.component.searchResults {
 
 .component.searchResults .rowsWrapper {
   margin-bottom: 30px;
-  border-top: 1px solid black;
+
 }
 
 .component.ch-pagination ul {
@@ -1777,10 +1777,10 @@ a.ch-zoom-trigger {
 .component.vip h1 {
   font-size: 24px;
   font-family: var(--font-sans);
-  font-weight: 400;
-  color: var(--color2);
+  font-weight: 700;
+  color: var(--color1);
   font-style: normal;
-  text-transform: initial;
+  text-transform: uppercase;
 }
 
 .FbLikeButton {
@@ -1795,10 +1795,9 @@ a.ch-zoom-trigger {
 }
 
 .component.vip .priceInfo {
-  font-family: var(--font-serif);
-  color: var(--color2);
-  font-style: italic;
-  font-weight: 400;
+  font-family: var(--font-sans);
+  color: var(--color1);
+  font-weight: 700;
 }
 
 .PaymentList li.paymentsMP {
@@ -1850,11 +1849,10 @@ dl.priceInfo.promotionPrice dd.installments span.withMP, dl.priceInfo dd.install
     font-family: var(--font-sans);
     font-weight: 400;
     font-style: normal;
-    text-transform: capitalize;
+    text-transform: uppercase;
     color: white;
     font-size: 14px;
     border: 1px solid var(--color1);
-    border-radius: 30px;
     height: 35px;
     -webkit-transition: all 0.5s;
     line-height: 35px;
@@ -1872,13 +1870,14 @@ dl.priceInfo.promotionPrice dd.installments span.withMP, dl.priceInfo dd.install
     width: 143px;
     background: var(--middleGrey);
     font-family: var(--font-sans);
+    border: 1px solid var(--middleGrey);
     font-weight: 400;
     font-size: 14px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     -webkit-transition: all 0.5s;
     text-decoration: none;
     line-height: 38px;
-    color: white;
+    color: var(--color1);
 }
 
 .component.vip .ch-actions.buttonBuy .hasContact:hover {
@@ -1957,8 +1956,12 @@ input.ch-btn.ch-secondary.ms-shipping-calculator__form-btn {
   font-family: 'Playfair Display' !important;
 }
 
-.filas.clearfix .tbody.clearfix.item {
-	border-bottom: 1px solid var(--middleGrey) !important;
+.filas.clearfix .tbody.clearfix.item:nth-of-type(odd) {
+    background: var(--softGrey);
+}
+
+.filas.clearfix .tbody.clearfix.item:last-of-type {
+    background: none;
 }
 
 .filas.clearfix .tbody.clearfix.item.order-price-detail {
@@ -2227,6 +2230,7 @@ dl.priceInfo.promotionPrice span.ch-price.price {
   font-style: normal !important;
   font-size: 14px;
   color: black !important;
+  text-transform: uppercase;
 }
 
 .component.shipTable .tbody {
@@ -2345,9 +2349,9 @@ li.colPrice.ch-price.price.cart-item-price {
     /* flex-wrap: wrap; */
     align-items: center;
     /* justify-content: space-between; */
-    width: 29%;
+    width: 40%;
     float: right;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .ch-btn.ch-primary, .btn.primary, .ch-btn.ch-primary:focus, .btn.primary:focus {
@@ -2465,15 +2469,18 @@ span#total-to-pay {
 
 a.keepBuying {
     font-family: var(--font-sans);
-    font-weight: 700;
-    color: var(--middleGrey);
+    font-weight: 400;
+    color: var(--color1);
     padding: 10px 22px;
     margin: 0 !important;
     font-size: 14px !important;
     -webkit-transition: all 0.5s;
     /* background-color: #aaa !important; */
-    order: 2;
-    text-decoration: underline;
+    order: 0;
+    background-color: var(--softGrey);
+    text-transform: uppercase;
+    margin-right: 15px;
+    width: 50%;
 }
 
 input#newBuyCart-submit {
@@ -2482,14 +2489,13 @@ input#newBuyCart-submit {
     border: 1px solid var(--color1);
     color: white;
     padding: 10px;
-    width: 100%;
+    width: 50%;
     font-size: 14px;
     font-family: var(--font-sans);
-    font-weight: 700;
+    font-weight: 400;
     margin: 0;
     height: 37px;
     -webkit-transition: all 0.5s;
-    border-radius: 40px;
     order: 1;
     text-transform: uppercase;
 }
@@ -2710,7 +2716,10 @@ a#callbackCoupon:hover {
   #products-toggle p {
     margin: 0;
     padding: 0;
-    color: black;
+    color: white;
+  }
+  .menu-overlay a, .products-toggle a, .products-toggle p {
+  	color: white !important;
   }
   .wrapper-xs {
     width: 90%;
@@ -2950,7 +2959,6 @@ ul.banks.clearfix {
 @media (max-width: 991px) {
 	#newsletter-form { margin-top: 15px; }
 	#newsletter-form input { margin-bottom: 7px; }
-	#hero-home { padding-top: 120px; }
 	.product-photo { height: 150px; }
 	.product-info { height: 90px; }
 	.wrapper { margin-top: 150px !important; }

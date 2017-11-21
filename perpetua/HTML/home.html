@@ -1,0 +1,174 @@
+<main>
+  <section id="hero-home">
+    <div class="slider" id="hero-slider">
+      #foreach ($contentImage in $contentImageList)
+        <div class="slide" id="slide1">
+          #if($contentImage.haslink)
+            <a href="$contentImage.link" style="background-image:url('$contentImage.src')"></a>
+          #else
+            <a href="" style="background-image:url('$contentImage.src')"></a>
+          #end
+        </div>
+      #end
+    </div>
+  </section>
+  <section id="categories">
+    <div class="container">
+      <div class="col-xs-12 col-sm-4 xs-np npl">
+        <div class="category-banner id1">
+          <div class="info-overlay">
+            <a href="#"><h1>Línea Perpetua</h1></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 np xs-pt xs-pb">
+        <div class="category-banner id2">
+          <div class="info-overlay">
+            <a href="#"><h1>Línea Venus</h1></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 xs-np npr">
+        <div class="category-banner id3">
+          <div class="info-overlay">
+            <a href="#"><h1>Repuestos</h1></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="featured">
+    <div class="container headline">
+      <div class="col-xs-12 justify-content-center">
+        <div class="row">
+          <h1>Línea Premium</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+
+      <!-- Products -->
+      #foreach ($item in $outstandingItemList)
+        <div class="col-xs-6 col-md-3 featured-item">
+          <figure class="product-photo">
+            #if ($item.hasImages)
+              <img src="$item.imageUrl" alt="$item.title" title="$item.title">
+            #else
+              <img src="../IMAGES/product-nofoto.jpg">
+            #end
+            #if($item.hasPromotion)
+              #if($item.promotion.isDiscountTypePrice)
+                <div class="discount">$item.promotion.discountPercent % off</div>
+              #elseif ($item.promotion.isDiscountTypeQuantity && "AR" != "BR")
+                <span class="discount promotion">$item.promotion.quantityTake<span>x</span>$item.promotion.quantityBuy</span>
+              #end
+            #end
+            <a href="$item.url" class="shop-btn">
+              Comprar
+            </a>
+          </figure>
+          <div class="product-info">
+            <a href="$item.url"><figcaption>$item.title</figcaption></a>
+            <p class="price">
+              #if($item.hasPromotion)
+                #if($item.promotion.isDiscountTypePrice)
+                  <span class="old-price">
+                    $ $item.itemPrice
+                  </span>
+                  <span class="new-price">
+                    $ $item.discountPrice
+                  </span>
+                #end
+              #else
+                <strong class="new-price">
+                  $ $item.itemPrice
+                </strong>
+              #end
+            </p>
+          </div>
+        </div>
+      #end
+      <!-- End Product -->
+
+    </div>
+  </section>
+  <section id="banner-extra">
+    <div class="container">
+      <div class="banner-photo"></div>
+    </div>
+  </section>
+  <section id="featured">
+    <div class="container headline">
+      <div class="col-xs-12 justify-content-center">
+        <div class="row">
+          <h1>Repuestos</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+
+      <!-- Products -->
+      #foreach ($galleryItem in $galleryItemList)
+        <div class="col-xs-6 col-md-3 featured-item">
+          <figure class="product-photo">
+            #if ($galleryItem.hasImages)
+              <img src="$galleryItem.imageUrl" alt="$galleryItem.title" title="$galleryItem.title">
+            #else
+              <img src="../IMAGES/product-nofoto.jpg">
+            #end
+            #if($galleryItem.hasPromotion)
+              #if($galleryItem.promotion.isDiscountTypePrice)
+                <div class="discount">$galleryItem.promotion.discountPercent % off</div>
+              #elseif ($galleryItem.promotion.isDiscountTypeQuantity && "AR" != "BR")
+                <span class="discount promotion">$galleryItem.promotion.quantityTake<span>x</span>$galleryItem.promotion.quantityBuy</span>
+              #end
+            #end
+            <a href="$galleryItem.url" class="shop-btn">
+              Comprar
+            </a>
+          </figure>
+          <div class="product-info">
+            <a href="$galleryItem.url"><figcaption>$galleryItem.title</figcaption></a>
+            <p class="price">
+              #if($galleryItem.hasPromotion)
+                #if($galleryItem.promotion.isDiscountTypePrice)
+                  <span class="old-price">
+                    $ $galleryItem.itemPrice
+                  </span>
+                  <span class="new-price">
+                    $ $galleryItem.discountPrice
+                  </span>
+                #end
+              #else
+                <strong class="new-price">
+                  $ $galleryItem.itemPrice
+                </strong>
+              #end
+            </p>
+          </div>
+        </div>
+      #end
+      <!-- End Product -->
+
+    </div>
+  </section>
+  <section id="shop-info">
+    <div class="container">
+      <div class="col-xs-12 col-md-4 info-col">
+        <img src="../IMAGES/payment.png" height="30">
+        <h4>Cuotas sin Interés</h4>
+        <h5>Pagando con MercadoPago</h5>
+      </div>
+      <div class="col-xs-12 col-md-4 info-col">
+        <img src="../IMAGES/shipping.png" height="30">
+        <h4>Realizamos Envíos</h4>
+        <h5>A través de MercadoEnvíos</h5>
+      </div>
+      <div class="col-xs-12 col-md-4 info-col">
+        <img src="../IMAGES/contact.png" height="30">
+        <h4>¡Envianos tu Consulta!</h4>
+        <h5><a href="/contact">Contactanos</a></h5>
+      </div>
+    </div>
+  </section>
+</main>

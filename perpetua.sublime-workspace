@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"background",
+				"background-image"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"footer",
+				"footer-navigation"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"col-md",
+				"col-md-3"
+			],
+			[
+				"col-xs",
+				"col-xs-12"
+			],
+			[
 				"product",
 				"products-nav-button"
 			],
@@ -40,20 +68,8 @@
 				"middleGrey"
 			],
 			[
-				"padd",
-				"padding"
-			],
-			[
-				"margin",
-				"margin-top"
-			],
-			[
 				"wid",
 				"width"
-			],
-			[
-				"background",
-				"background-size"
 			],
 			[
 				"color",
@@ -146,10 +162,6 @@
 			[
 				"trnaslat",
 				"translateX()"
-			],
-			[
-				"back",
-				"background"
 			],
 			[
 				"scale",
@@ -294,10 +306,6 @@
 			[
 				"list",
 				"list-style-type"
-			],
-			[
-				"footer",
-				"footer-col"
 			],
 			[
 				"backgroun",
@@ -455,6 +463,42 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "perpetua/CSS/personalized.css",
+			"settings":
+			{
+				"buffer_size": 175286,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "perpetua/HTML/header.html",
+			"settings":
+			{
+				"buffer_size": 4169,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "perpetua/HTML/home.html",
+			"settings":
+			{
+				"buffer_size": 5867,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "perpetua/HTML/footer.html",
+			"settings":
+			{
+				"buffer_size": 3919,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -493,6 +537,15 @@
 	},
 	"file_history":
 	[
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Giorgio Redaelli/HTML/G Redaelli/HTML/home.html",
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Estate Pipes/HTML/EPBA/HTML/header.html",
+		"/Users/Juan/Documents/Montauk/GITHUB/capocar/ms/HTML/home.html",
+		"/Users/Juan/Documents/Montauk/GITHUB/capocar/ms/HTML/header.html",
+		"/Users/Juan/Documents/Montauk/GITHUB/capocar/ms/HTML/footer.html",
+		"/Users/Juan/Documents/Montauk/GITHUB/perpetua/pre-ms/html/index.html",
+		"/Users/Juan/Documents/Montauk/GITHUB/capocar/ms/CSS/personalized.css",
+		"/Users/Juan/Documents/Montauk/GITHUB/fancy-home/ms/HTML/home.html",
+		"/Users/Juan/Documents/Montauk/GITHUB/fancy-home/ms/CSS/personalized.css",
 		"/Users/Juan/Downloads/Minimalista/HTML/header.html",
 		"/Users/Juan/Downloads/Minimalista/HTML/footer.html",
 		"/Users/Juan/Downloads/Minimalista/HTML/home.html",
@@ -541,7 +594,6 @@
 		"/Users/Juan/Google Drive/Montauk Studio/Dev/Frany and Zoey/Assets/lupa.svg",
 		"/Users/Juan/Desktop/Montauk/Assets Web/Montauk logo.svg",
 		"/Users/Juan/Google Drive/Montauk Studio/Dev/Frany and Zoey/Assets/iso.svg",
-		"/Users/Juan/Google Drive/Montauk Studio/Dev/Giorgio Redaelli/HTML/G Redaelli/HTML/home.html",
 		"/Users/Juan/Documents/Montauk/Workspace/themes/default/layouts/heniax.htm",
 		"/Users/Juan/Documents/Montauk/Workspace/themes/default/partials/header.htm",
 		"/Users/Juan/Documents/Montauk/Workspace/themes/default/assets/css/web.css",
@@ -612,19 +664,11 @@
 		"/Users/Juan/Google Drive/Montauk Studio/Dev/Phresh/application/views/web/views/index.php",
 		"/Users/Juan/Google Drive/Montauk Studio/Dev/Phresh/css/web.styl",
 		"/Users/Juan/Google Drive/Montauk Studio/Dev/Di Nizo/HTML/Di Nizo/CSS/personalized.css",
-		"/Users/Juan/Google Drive/Montauk Studio/Dev/Di Nizo/HTML Web/footer.php",
-		"/Users/Juan/Google Drive/Montauk Studio/Dev/Di Nizo/HTML Web/web.css",
-		"/Users/Juan/Google Drive/Montauk Studio/Dev/Di Nizo/HTML Web/header.php",
-		"/Users/Juan/Google Drive/Montauk Studio/Dev/Di Nizo/HTML Web/index.php",
-		"/Users/Juan/Google Drive/Montauk Studio/Dev/Di Nizo/HTML/Di Nizo/HTML/home.html",
-		"/Users/Juan/Google Drive/Montauk Studio/Dev/Paulette/HTML Web 2/header.php",
-		"/Users/Juan/Google Drive/Montauk Studio/Dev/Paulette/HTML Web 2/footer.php",
-		"/Users/Juan/Google Drive/Montauk Studio/Dev/Roden Web/HTML/header.php",
-		"/Users/Juan/Google Drive/Montauk Studio/Dev/Roden MS/HTML/Roden HTML/CSS/main.css"
+		"/Users/Juan/Google Drive/Montauk Studio/Dev/Di Nizo/HTML Web/footer.php"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -638,6 +682,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"products-toggle",
+			"mobile",
+			"header",
+			".component.shipTable .ch-actions.cart",
+			".component.searchResults .component.item-gallery h2",
+			".wrapper {\n    margin-top: 210px;\n}",
+			"row",
+			"header",
+			"images",
+			"topbar",
+			".topbar",
+			"footer",
+			"strong",
+			"shop-btn",
+			"buy-btn",
+			"root",
 			"#home-hero .slide-content h2",
 			"--fon",
 			"h4",
@@ -749,23 +809,7 @@
 			".component.vip span.ch-price.price",
 			".component.vip h1",
 			"#page-VIP .component.categoriesPath.clearfix",
-			".component.categoriesPath.clearfix, .clearfix.background",
-			".component.searchResults .component.item-gallery h2",
-			".component.searchResults .component.item-gallery figure",
-			".component.searchResults .component.item-gallery h2",
-			".component.orderList dd strong",
-			".component.orderList",
-			".background > form *",
-			".component.categoriesPath li",
-			".component.searchResults li.row.one-promo",
-			".component.searchResults .component.item-gallery figure",
-			".component.categoriesPath.clearfix, .clearfix.background",
-			".component.searchResults .component.item-gallery figure",
-			"#page-RESULT .component.searchResults .component.item-gallery .itemPrice",
-			".item-gallery .lastProd",
-			".component.orderList",
-			"a#sortMaxPrice",
-			".component.orderList"
+			".component.categoriesPath.clearfix, .clearfix.background"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -783,8 +827,131 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "perpetua/CSS/personalized.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 175286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								132576,
+								132576
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 12673.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "perpetua/HTML/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4169,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1207,
+								1207
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 620.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "perpetua/HTML/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5867,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5017,
+								5017
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2181.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "perpetua/HTML/footer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3919,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2519,
+								2519
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 854.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -805,11 +972,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
