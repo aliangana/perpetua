@@ -352,7 +352,7 @@
 /* Core */
 
 :root {
-  --color1: #526689;
+  --color1: #3b68b6;
   --color2: #959595;
   --softGrey: #F7F7F7;
   --middleGrey: #ACACAC;
@@ -898,7 +898,7 @@ header {
 }
 
 .category-banner.id3 {
-	background: url(../IMAGES/category3.jpg);
+	background: url(../IMAGES/repuestos.jpg);
 	background-position: center;
 	background-size: cover;
 }
